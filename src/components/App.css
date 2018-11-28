@@ -1,0 +1,76 @@
+body {
+  background-color: #9DE0FC;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+input::placeholder {
+  color: #141414;
+  font-weight: 900;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.emoji-char {
+  font-family:apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
+}
+
+.emoji-wrapper {
+  margin-top: 10px;
+  width: 530px;
+ 
+  margin: 0 auto;
+}
+.emoji-wrapper .emoji-container{
+  padding: 4px 4px;
+  font-size: 24px;  
+  height: 32px;
+  display: flex;
+  justify-content: space-between
+}
+
+.emoji-wrapper .emoji-container .emoji-description{
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+input.filter-emoji{
+  text-indent: 6px;
+  padding: 10px;
+  outline: none;
+  border: 5px solid #141414;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
